@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meowsic</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"></span><img src="../media/logo.png" alt = "Spotify"> Meowsic</li>
+            <li></span><i class="fa-regular fa-house"></i> Home</li>
+            <li><input type="text" id="searchbar" placeholder="Search Song..."></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>All songs</h1>
+            <div class="songitemcontainer" id="songcontainer"></div>
+        </div>
+        <div class="songbanner" id="songbanner">
+            <img id="nowplaying" src="../covers/cover1.jpg" alt="Now Playing">
+            <div id="nowplayinginfo">
+                <h2 id="mastersongname">Krishna Bhajan</h2>
+                <button id="favoritebtn">❤</button>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class="icons">
+            <span class="middle-button">
+                <i class="fa-2x fa-solid fa-step-backward" style="color: white;" id="previous"></i>
+                <i class="fa-2x fa-solid fa-circle-play" style="color: white;" id="masterplay"></i>
+                <i class="fa-2x fa-solid fa-step-forward" style="color: white;" id="next"></i>
+            </span>
+
+            <span class="volume-controls">
+                <i class="fa-1.9x fa-solid fa-repeat" style="color: white;" id="repeatbtn"></i>
+                <i class="fa-1.9x fa-solid fa-shuffle" style="color: white;" id="shufflebtn"></i>
+                <i class="fa-1.9x fa-solid fa-volume-high" style="color: white;" id="volicon"></i>
+                <input type="range" style="color: white;" id="volcontrol" min="0" max="1" step="0.01" value="1">
+            </span>
+        </div>
+
+        <div class="songinfo">
+            <img src="../media/visualizer.gif" width="70px" alt="" id="gif">
+            <span style="color: white;" id="currentTime">0:00</span> /
+            <span id="totalTime">0:00</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/63983d6d57.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
