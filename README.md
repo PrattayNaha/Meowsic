@@ -5,6 +5,8 @@ Meowsic allows users to play audio files, switch songs, search songs, control vo
 
 ---
 
+live link: https://prattaynaha.github.io/Meowsic/
+
 ## 🚀 **Features**
 
 ### 🎧 **Core Music Player**
