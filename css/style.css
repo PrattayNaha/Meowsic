@@ -183,3 +183,131 @@ nav ul li{
     gap: 15px;
 
 }
+
+/* ============================
+   MOBILE RESPONSIVE DESIGN
+   ============================ */
+@media (max-width: 768px) {
+
+    /* General adjustments */
+    body {
+        background-color: antiquewhite;
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px;
+    }
+
+    nav ul li {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    #searchbar {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    /* Main container becomes vertical on mobile */
+    .container {
+        flex-direction: column;
+        width: 90%;
+        padding: 20px;
+        background-size: cover;
+        background-position: center;
+        min-height: auto;
+    }
+
+    .songlist {
+        width: 100%;
+    }
+
+    .songbanner {
+        width: 100%;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .songbanner img {
+        width: 160px;
+    }
+
+    /* Song items resize */
+    .songitem {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .songitem img {
+        width: 35px;
+    }
+
+    /* Player Bottom Bar */
+    .bottom {
+        height: auto;
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    #myProgressBar {
+        width: 90%;
+    }
+
+    .icons {
+        width: 100%;
+        margin-top: 10px;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .middle-button {
+        position: relative;
+        left: 0;
+        transform: none;
+        justify-content: center;
+    }
+
+    .volume-controls {
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #volcontrol {
+        width: 100px;
+    }
+
+    /* Song info */
+    .songinfo {
+        position: relative;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .songinfo img {
+        width: 50px;
+    }
+}
+
+/* Extra small devices — Phones under 480px */
+@media (max-width: 480px) {
+
+    nav ul li {
+        font-size: 12px;
+    }
+
+    .songbanner img {
+        width: 140px;
+    }
+
+    .icons i {
+        font-size: 1.5rem;
+    }
+
+    #volcontrol {
+        width: 80px;
+    }
+}
