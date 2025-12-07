@@ -14,17 +14,17 @@ let shufflebtn = document.getElementById('shufflebtn');
 let favoritebtn = document.getElementById('favoritebtn');
 
 let songs = [
-    {songName: "RunAway", filepath:"/mp3/0.mp3", coverPath: "/covers/cover1.png"},
-    {songName: "Heat Waves", filepath:"/mp3/1.mp3", coverPath: "/covers/cover2.jpeg"},
-    {songName: "Boulevard of Broken Dreams", filepath:"/mp3/2.mp3", coverPath: "/covers/cover3.jpg"},
-    {songName: "Substanece", filepath:"/mp3/3.mp3", coverPath: "/covers/cover4.png"},
-    {songName: "Pastlife", filepath:"/mp3/5.mp3", coverPath: "/covers/cover5.jpg"},
-    {songName: "Half Alive", filepath:"/mp3/6.mp3", coverPath: "/covers/cover6.jpg"},
-    {songName: "She said no", filepath:"/mp3/7.mp3", coverPath: "/covers/cover7.jfif"},
-    {songName: "Sweater", filepath:"/mp3/9.mp3", coverPath: "/covers/cover8.jfif"},
-    {songName: "Nigh Changes", filepath:"/mp3/12.mp3", coverPath: "/covers/cover9.jfif"},
-    {songName: "FireFly", filepath:"/mp3/13.mp3", coverPath: "/covers/cover10.jfif"},
-    {songName: "Sugar", filepath:"/mp3/15.mp3", coverPath: "/covers/cover11.jfif"},
+    {songName: "RunAway", filepath:"mp3/0.mp3", coverPath: "covers/cover1.png"},
+    {songName: "Heat Waves", filepath:"mp3/1.mp3", coverPath: "covers/cover2.jpeg"},
+    {songName: "Boulevard of Broken Dreams", filepath:"mp3/2.mp3", coverPath: "covers/cover3.jpg"},
+    {songName: "Substanece", filepath:"mp3/3.mp3", coverPath: "covers/cover4.png"},
+    {songName: "Pastlife", filepath:"mp3/5.mp3", coverPath: "covers/cover5.jpg"},
+    {songName: "Half Alive", filepath:"mp3/6.mp3", coverPath: "covers/cover6.jpg"},
+    {songName: "She said no", filepath:"mp3/7.mp3", coverPath: "covers/cover7.jfif"},
+    {songName: "Sweater", filepath:"mp3/9.mp3", coverPath: "covers/cover8.jfif"},
+    {songName: "Nigh Changes", filepath:"mp3/12.mp3", coverPath: "covers/cover9.jfif"},
+    {songName: "FireFly", filepath:"mp3/13.mp3", coverPath: "covers/cover10.jfif"},
+    {songName: "Sugar", filepath:"mp3/15.mp3", coverPath: "covers/cover11.jfif"},
 ]
 
 //timeupdate
